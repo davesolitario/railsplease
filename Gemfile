@@ -31,6 +31,7 @@ group :development do
   gem 'devise', '~> 4.2'
   gem 'bootstrap', '~> 4.0'
   gem 'acts_as_votable', '~> 0.10.0'
+  gem 'simple_form', '~> 3.5', '>= 3.5.1'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
