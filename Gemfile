@@ -30,6 +30,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'devise', '~> 4.2'
   gem 'bootstrap', '~> 4.0'
+  gem 'acts_as_votable', '~> 0.10.0'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
