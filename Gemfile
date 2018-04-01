@@ -14,6 +14,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '3.2.0.2'
 gem 'record_tag_helper', '~> 1.0'
+gem 'devise', '~> 4.2'
+gem 'acts_as_votable', '~> 0.10.0'
 
 
 gem 'coffee-rails', '~> 4.2'
@@ -33,7 +35,6 @@ end
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'bootstrap', '~> 4.0'
-  gem 'acts_as_votable', '~> 0.10.0'
   gem 'simple_form', '~> 3.5', '>= 3.5.1'
 
 
