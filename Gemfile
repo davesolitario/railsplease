@@ -14,12 +14,12 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '3.2.0.2'
 gem 'record_tag_helper', '~> 1.0'
-gem 'devise_rpx_connectable', '0.2.2'
+
 
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'devise', '~> 4.4.3'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -27,7 +27,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
-group :development do
+
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
@@ -35,7 +35,7 @@ group :development do
   gem 'bootstrap', '~> 4.0'
   gem 'acts_as_votable', '~> 0.10.0'
   gem 'simple_form', '~> 3.5', '>= 3.5.1'
-end
+
 
 group :development do
   gem 'sqlite3'
